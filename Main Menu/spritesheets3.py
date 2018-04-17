@@ -59,8 +59,6 @@ while True:
 	s.draw(DS, index % s.totalCellCount, HW, HH, CENTER_HANDLE)
 	index += 1
 	
-	#pygame.draw.circle(DS, WHITE, (int(HW), int(HH)), 2, 0)
-	
 	pygame.display.update()
 	CLOCK.tick(FPS)
 	DS.fill(BLACK)
